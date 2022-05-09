@@ -1,0 +1,1069 @@
+/*Variables*/
+:root
+{
+    --color_primario: #62a5a1;
+    --color_secundario:#b54484;
+    --type: Montserrat,Georgia,serif;;
+}
+
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+/*HEADER MENU*/
+
+header .log {
+    width: 120px;
+    margin: 0.188em;
+
+}
+header {
+    border-bottom:1px solid black ;
+    border-top: 10px solid rgb(255, 255, 255);
+    text-align: center;
+    background-color: var(--color_primario);
+    padding: 1.875em 0.625em;
+}
+
+.menu ul li a i 
+{
+    padding-right: 0.5em;
+}
+
+header .menu ul li {
+    display: inline;
+}
+header .menu ul li a{
+    display: inline;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 1.063em;
+    padding: 0.438em 0.125em;
+    margin: 0em 0.625em;
+    font-family: Montserrat,Georgia,serif;
+}
+header .menu ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 6px 200px 34px -113px rgb(0, 0, 0);
+    transition: 4s;
+}
+
+ header .iniciar a
+{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 1.125em;
+    background-color: var(--color_secundario);
+    border-radius: 50px;
+    padding: 0.625em;
+}
+
+header .iniciar a:hover
+{
+    color: black;
+    border-bottom: solid rgb(255, 255, 255);
+    
+}
+
+    /*estilo contenedor header */
+
+    header 
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+/*contenedor 1*/
+.contenedor_1
+{   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 3.125em;
+    padding-top: 1.25em;
+    background-color: white;
+}
+
+.contenedor_1 .conte 
+{
+    width: 45%;
+    margin: 1.875em;
+}
+.contenedor_1 .conte h2
+{
+    color: var(--color_secundario);
+    font-size: 4.375em;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 0.2em;
+}
+.contenedor_1 .conte h3
+{
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+.contenedor_1 .conte p 
+{
+line-height: 25px;
+font-family:  Average,serif;
+font-size: 1.125em;
+}
+
+.contenedor_1 .imagen
+{
+    width: 400px;
+
+}
+
+
+/*contenedor 2 marca*/
+.contenedor_2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color_secundario); 
+}
+.contenedor_2 h2 
+{
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 0.875em;
+}
+.contenedor_2 .conte2
+
+{
+    padding: 2.5em;
+    border-right: solid rgb(255, 255, 255) 1px;
+    align-content: space-around;
+    align-items: baseline;
+    flex-grow: inherit;
+    display: flex;
+}
+
+.contenedor_2 .conte2 p 
+{
+    line-height: 25px;
+}
+
+/*contenedor 3 colores*/
+
+.contenedor_3
+
+{
+    background-color:#ffffff ;
+    display: flex;
+    padding-bottom: 2.5em;
+    padding-top: 1.25em;
+    border-bottom: solid black 1px;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.contenedor_3 .colores
+
+{
+    margin: 0.5em;
+    padding: 0.75em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenedor_3 .title 
+{
+    margin-left: 5em;
+    margin-right: 5em;
+    width: 65%;
+    margin-top: 1.875em;
+    
+}
+.contenedor_3 .title h1 
+{
+    color: var(--color_secundario);
+    font-size: 4.375em;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 0.2em;
+}
+.contenedor_3 .title  p
+{
+    line-height: 25px;
+    font-size: 1.188em;
+
+}
+
+
+/*colores*/
+.contenedor_3 .colores  ._1
+{
+    color: white;
+    display: flex;
+    background-color: #72B56A;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+}
+.contenedor_3 .colores  ._2
+{
+    display: flex;
+    background-color: #77953A;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._3
+{
+    display: flex;
+    background-color: #B5DA9B;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._4
+{
+    display: flex;
+    background-color: #92AF2A;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._5
+{
+    background-color: #F9C606;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._6
+{
+    background-color: #FFE46A;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._7
+{
+    background-color: #FBAD1D;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._8
+{
+    background-color: #DEC8A1;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._9
+{
+    background-color: #F89E5B;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._10
+{
+    background-color: #F6891F;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._11
+{
+    background-color: #F15F22;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._12
+{
+    background-color: #F04C3E;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._13
+{
+    background-color: #EE2D24;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._14
+{
+    background-color: #F16B81;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._15
+{
+    background-color: #A36873;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._16
+{
+    background-color: #D985A9;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._17
+{
+    background-color: #DB89BA;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._18
+{
+    background-color: #F386A4;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._19
+{
+    background-color: #C7A0CB;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._20
+{
+    background-color: #918BC3;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._21
+{
+    background-color: #619BD3;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._22
+{
+    background-color: #0D9DC1;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._23
+{
+    background-color: #85BBE5;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._24
+{
+    background-color: #94C5D4;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._25
+{
+    background-color: #9DDAE5;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._26
+{
+    background-color: #84D2E1;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._27
+{
+    background-color: #7DCDC8;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._28
+{
+    background-color: #00B2BF;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._29
+{
+    background-color: #A49C86;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._30
+{
+    background-color: #82746E;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._31
+{
+    background-color: #AABF2C;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+.contenedor_3 .colores  ._32
+{
+    background-color: #95D1F2;
+    padding: 0.313em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    color: white;
+}
+
+
+
+
+/*pie estilo*/
+.contacto h2 
+{
+    padding-bottom: 0.375em;
+    color: white;
+    font-size: 1.75em;
+    font-weight:800;
+}
+
+.contacto ul li a i 
+{
+    padding: 0.5em;
+
+}
+
+.contacto ul li a
+{
+    color: white;
+}
+.contacto ul li a:hover 
+{
+    color: black;
+}
+
+.contacto ul li 
+{
+    padding-bottom: 0.625em;
+    display: inline;
+}
+
+footer
+{
+    background-color: var(--color_primario);
+    padding: 1.875em 0.625em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info ul li a 
+{
+    color: white;
+}
+.info ul li a:hover 
+{
+    color: black;
+    border-bottom: solid 1px black;
+}
+ .info
+{
+    display: flex;
+    
+}
+.info .producto
+
+{
+    margin: 0.625em ;
+    padding: 1.25em 3.125em 1.25em 3.125em;
+    border-bottom: solid black 1px;
+}
+.info .compa
+
+{
+    margin: 0.625em ;
+    padding: 1.25em 3.125em 1.25em 3.125em;
+    border-bottom: solid black 1px;
+}
+.info .recursos
+{
+    margin: 0.625em ;
+    padding: 1.25em 3.125em 1.25em 3.125em;
+    border-bottom: solid black 1px;
+}
+.info .poli
+{
+    margin: 0.625em ;
+    padding: 1.25em 3.125em 1.25em 3.125em;
+    border-bottom: solid black 1px;
+}
+.info h2 
+{
+    padding-bottom: 0.313em;
+    color: white;
+}
+.info ul li{
+    padding-bottom: 0.625em;
+}
+
+
+
+
+
+/*Estilo parte final*/
+
+.final
+{
+    display: flex;
+    background-color: var(--color_primario);
+    justify-content: space-between;
+    border-top: solid rgb(255, 255, 255) 2px;
+    align-items: center;
+
+    
+}
+.final .logo {
+    width: 70px;
+    margin-left: 1.75em;
+    margin-top: 1.875em;
+    margin-bottom: 1.25em;
+}
+.final .iniciar 
+{
+    margin-right: 1.75em;
+    margin-top: 1.875em;
+    margin-bottom: 1.25em;
+}
+.final .iniciar a
+{
+    text-decoration: none;
+    color: white;
+
+    font-style: italic;
+    font-size: 1.125em;
+    background-color: var(--color_secundario);
+    border-radius: 50px;
+    padding: 0.625em;
+}
+.final .iniciar a:hover
+{
+    color: black;
+    border-bottom: solid rgb(255, 255, 255);
+}
+
+
+
+/*Responsive móvil*/
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    header .log {
+        width: 100px;
+        margin: 0.110em ;
+        }
+
+    header {
+        width: 100%;
+        flex-direction: column;
+        
+        }
+    nav .menu ul li a{
+        font-size: 1em;
+        padding: 0em;
+        }
+
+     
+    nav ul li {
+        padding: 15px;
+    }
+
+
+   
+    header {
+        align-content: space-between;
+        height: 330px;
+     }
+
+     
+    .menu ul li a i 
+     {
+        margin: 8px 8px 8px 0px;
+     }
+     
+    .log{
+         order:0;
+     }
+     .menu {
+
+     order: 1;
+     }
+
+     .iniciar 
+     {
+         order:2;
+     }
+
+
+
+
+     /*contenedor 1*/
+.contenedor_1
+{ 
+    flex-direction: column;
+}
+
+.contenedor_1 .conte 
+{
+    width: 70%;
+    margin: 1em;
+}
+.contenedor_1 .conte h2
+{
+    font-size: 4em;
+}
+.contenedor_1 .conte h3
+{
+    font-size: 1em;
+}
+.contenedor_1 .conte p 
+{
+font-size: 1.1em;
+}
+
+.contenedor_1 .imagen
+{
+    width: 200px;
+
+}
+
+
+/*contenedor 2 marca*/
+.contenedor_2
+{
+   flex-direction: column;
+}
+.contenedor_2 h2 
+{
+    font-size: 2em;
+    padding-bottom: 0.675em;
+}
+.contenedor_2 .conte2
+
+{
+    padding: 2em;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    border-right: none;
+    width: 88%;
+}
+
+
+/*contenedor 3 colores*/
+
+.contenedor_3
+
+{
+    padding-bottom: 2em;
+    padding-top: 1em;
+     align-items: center;
+}
+.contenedor_3 .colores
+
+{
+    margin: 0em;
+    padding: 0.55em;
+    justify-content: center;
+}
+.contenedor_3 .title 
+{
+    align-items: center;
+
+   
+    
+}
+.contenedor_3 .title h1 
+{
+    font-size: 3em;
+}
+.contenedor_3 .title  p
+{
+    font-size: 1.1em;
+    
+
+}
+
+/*pie estilo*/
+.contacto h2 
+{
+    margin-left: 1em;
+}
+
+.contacto ul li 
+{
+    display: inline;
+    margin: 1px;
+
+}
+
+footer
+{
+   flex-direction: column;
+}
+
+
+ .info
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.contacto ul li a 
+{
+    display: flex;
+ flex-direction: column ;
+ align-content: flex-end;
+ align-items: center;
+ margin-right: 1em;
+}
+
+.contacto 
+{
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+}
+        
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+/*HEADER MENU*/
+
+header .log {
+    width: 100px;
+    margin: 0.1em;
+
+}
+
+.menu ul li a i 
+{
+    padding-right: 0.11em;
+    margin: 0.8em;
+}
+
+header .menu ul li a{
+    font-size: 0.76em;
+    padding: 0.338em 0.115em;
+    margin: 0em 0.400em ;
+}
+
+ header .iniciar a
+{
+    font-size: 1em;
+    padding: 0.425em;
+    align-items:flex-end ;
+    display: flex;
+    border-radius: 25px;
+}
+
+
+
+/*contenedor 1*/
+.contenedor_1
+{   flex-direction: column;
+}
+
+.contenedor_1 .conte 
+{
+    width: 85%;
+    margin: 1em;
+}
+.contenedor_1 .conte h2
+{
+    font-size: 4em;
+}
+.contenedor_1 .conte h3
+{
+    font-size: 1em;
+}
+.contenedor_1 .conte p 
+{
+font-size: 1.1em;
+}
+
+.contenedor_1 .imagen
+{
+    width: 315px;
+
+}
+
+/*contenedor 2 marca*/
+.contenedor_2
+{
+   flex-direction: column;
+}
+.contenedor_2 h2 
+{
+    font-size: 2.3em;
+    padding-bottom: 0.675em;
+}
+.contenedor_2 .conte2
+
+{
+    padding: 2em;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    border-right: none;
+  
+    
+}
+
+.contenedor_2 .conte2 p 
+{
+    line-height: 25px;
+}
+
+/*contenedor 3 colores*/
+
+.contenedor_3
+
+{
+    
+    padding-bottom: 2em;
+    padding-top: 1em;
+    align-items: center;
+}
+.contenedor_3 .colores
+
+{
+    margin: 0em;
+    padding: 0.75em;
+    justify-content: center;
+}
+.contenedor_3 .title 
+{
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 95%;
+    margin-top: 1.700em;
+    
+}
+.contenedor_3 .title h1 
+{
+    font-size: 3.5em;
+}
+.contenedor_3 .title  p
+{
+    font-size: 1.1em;
+
+}
+
+/*pie estilo*/
+
+footer 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.info 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+}
+
+
+
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+
+
+    
+/*HEADER MENU*/
+
+header .log {
+    width: 120px;
+    margin: 0.140em;
+
+}
+    
+.menu ul li a i 
+{
+    padding-right: 0.3em;
+    margin: 0.7em;
+}
+
+header .menu ul li a{
+    font-size: 1.063em;
+    padding: 0.438em 0.125em;
+    margin: 0em 0.1em;
+    }
+
+ header .iniciar a
+{
+    font-size: 1em;
+    padding: 0.525em;
+    align-items: flex-end;
+    display: flex;
+    
+}
+
+
+/*contenedor 1*/
+
+.contenedor_1 .conte 
+{
+    width: 50%;
+    margin: 1.8em;
+}
+
+.contenedor_1 .imagen
+{
+    width: 300px;
+
+}
+/*contenedor 2 marca*/
+.contenedor_2
+{
+   flex-direction: column;
+}
+.contenedor_2 h2 
+{
+    font-size: 2em;
+    padding-bottom: 0.675em;
+}
+.contenedor_2 .conte2
+
+{
+    padding: 2em;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    border-right: none;
+    width: 98%;
+}
+
+
+/*contenedor 3 colores*/
+
+.contenedor_3
+
+{
+    
+    padding-bottom: 2em;
+    padding-top: 1em;
+    align-items: center;
+}
+.contenedor_3 .colores
+
+{
+    margin: 0em;
+    padding: 0.75em;
+    justify-content: center;
+}
+.contenedor_3 .title 
+{
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 95%;
+    margin-top: 1.700em;
+    
+}
+.contenedor_3 .title h1 
+{
+    font-size: 3.5em;
+}
+.contenedor_3 .title  p
+{
+    font-size: 1.1em;
+
+}
+/*pie estilo*/
+
+footer 
+{
+    display: flex;
+}
+
+.info 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contacto 
+{
+    margin: 2em;
+}
+.contacto ul li a i 
+{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+
+
+
+
